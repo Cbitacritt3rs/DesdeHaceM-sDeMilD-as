@@ -1,0 +1,87 @@
+html, body {
+    background-color: rgb(7, 0, 15);
+    justify-items: center;
+    overflow: hidden;
+    height: 100vh;
+    margin: 0%;
+}
+
+.contenedor {
+    background-color: rgb(7, 0, 15);
+    background-repeat: no-repeat;
+    aspect-ratio: 9 / 16;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+}
+.fondo1,.fondo2,.fondo3,.fondo4,.texto1,.texto2,.texto3,.texto4,.control1,.control2,.control3,.control4 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.fondo1 {
+    background-image: url(imgs/fondo1.png);}
+.texto1 {
+    background-image: url(imgs/texto1.png);}
+.control1 {
+    background-image: url(imgs/control1.png);}
+.fondo2 {
+    background-image: url(imgs/fondo2.png);}
+.texto2 {
+    background-image: url(imgs/texto2.png);}
+.control2 {
+    background-image: url(imgs/control2.png);}
+.fondo3 {
+    background-image: url(imgs/fondo3.png);}
+.texto3 {
+    background-image: url(imgs/texto3.png);}
+.control3 {
+    background-image: url(imgs/control3.png);}
+.fondo4 {
+    background-image: url(imgs/fondo4.png);}
+.texto4 {
+    background-image: url(imgs/texto4.png);}
+.control4 {
+    background-image: url(imgs/control4.png);}
+
+.parte2 {
+    display: none;
+}
+.parte3 {
+    display: none;
+}
+.parte4 {
+    display: none;
+}
+
+.ant {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 15%;
+    width: 33%;
+    left: 2.5%;
+    bottom: 0%;
+}
+.sig,.sig2,.sig3,.sig4 {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 15%;
+    width: 33%;
+    left: 35.5%;
+    bottom: 0%;
+}
+.ocultxt {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    height: 15%;
+    width: 29%;
+    left: 68.5%;
+    bottom: 0%;
+}
